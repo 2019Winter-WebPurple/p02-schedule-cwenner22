@@ -1,0 +1,34 @@
+/*
+*Chloe Wenner
+*3/20/19
+*2nd Semester Schedule
+*/
+
+/* The universal selector*?
+
+* {
+} 
+/* Body properties here */
+
+body {
+}
+/* This makes the font size 100%*/
+    *{font-size: 100%}
+
+/*Makes the border on the table a solid gray*/
+    table, td, th { border: 1px solid gray; }
+
+/*This collapses the table and makes the rows and columns  more neat and easier to read*/
+    table { border-collapse : collapse; }
+
+/* This changes the background color and font of all the information in the thead section*/
+    thead { background-color: blanchedalmond; }
+    thead{font-family: Arial, Sans-Serif}
+
+/* This changes the background color and font of all the information in the tbody section*/
+    tbody {background-color: lightcyan}
+    tbody {font-family: sans-serif}
+
+/* This changes the background color and font of all the information in the tfoot section*/
+    tfoot { background-color: lightpink; }
+    tfoot {font-family:sans-serif}
